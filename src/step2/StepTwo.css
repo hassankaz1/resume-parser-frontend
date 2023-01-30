@@ -1,0 +1,32 @@
+.listView {
+    max-height: 45vh;
+}
+
+.rank-two {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 24px 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+    background: transparent;
+    color: black;
+    box-shadow: 0 0 0 3px black inset;
+    background-color: #FFFBAC;
+
+}
+
+
+
+.rank-two:hover {
+    background-color: black;
+    color: #FFFBAC;
+}

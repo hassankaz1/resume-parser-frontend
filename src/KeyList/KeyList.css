@@ -1,0 +1,32 @@
+.klst {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    color: #1E1828;
+    background-color: #4D607B;
+    border-radius: 25px;
+    max-width: 70vh;
+    margin-bottom: .8em;
+    margin-top: .5em;
+    max-height: 40vh;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+}
+
+.keys {
+    display: inline-block;
+    background-color: #FF8C64;
+    border-radius: 25px;
+    max-width: 30vh;
+    padding: .05em .5em;
+    margin: .3em .4em;
+}
+
+.list-head {
+    color: azure;
+
+}

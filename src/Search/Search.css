@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info {
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #2d2d2d;
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #2d2d2d;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #2d2d2d;
+    background: #2d2d2d;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rank {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+    background: transparent;
+    color: black;
+    box-shadow: 0 0 0 3px black inset;
+    background-color: #f4e603;
+
+}
+
+
+
+.rank:hover {
+    background-color: black;
+    color: #f4e603;
+}
+
+.nk {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 30%;
+
+    transform: translate(-50%, -50%);
+}
+
+.add {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: 20vh;
+
+    transform: translate(-50%, -50%);
+}

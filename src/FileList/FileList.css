@@ -1,0 +1,6 @@
+.file-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+}
